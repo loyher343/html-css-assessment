@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    font-family: 'Maven Pro', sans-serif;
+    color:white;
+}
+
+p{
+
+}
+.mainC{
+    
+    background-image: url("./img/main-bg.jpeg");
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100%; */
+    
+    background-size: cover;
+    
+}
+.topnav{
+    display: block;
+    position: relative;
+    height: 3em;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.topnav a:visited{
+    text-decoration: none;
+}
+.topnav a {
+    float: left;
+    display: block;
+    position: top;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.circleICON{
+    display: block;
+    border-style:solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 50%;
+    height: 3em;
+    width: 50px;
+    margin: 7px;
+}
+.topnav .circleICON{
+    display: none;
+}
+.icon {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 8px 7px;
+}
+.mid{
+    display: block;
+    /* background-color: greenyellow; */
+    height: 25em;
+    width: 100%;
+    text-align: center;
+    padding-top: 13em;
+
+    
+    
+    
+}
+.bottom{
+    width:100%;
+    height:7em;
+    display:flex;
+    justify-content: center;
+}
+
+.arrowB{
+    display: block;
+    border-radius: 50%;
+    background-color: white;
+    height: 5em;
+    width: 5em;
+    margin-left: 0em;
+    
+
+}
+.aPNG{
+    margin-top:17px; 
+    margin-left:24px;
+    height: 3em;
+    width: 2em;
+}
+.bump{
+    
+}
+
+@media screen and (max-width: 600px) {
+        .topnav a:not(:first-child) {display: none;}
+        .topnav a.icon {
+          float: left;
+          display: block;
+          
+        }
+        .topnav .circleICON{
+            display:block;
+            display: flex;
+            flex: flext-start;
+            position: left;
+        }
+}
+    
